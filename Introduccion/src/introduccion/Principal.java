@@ -5,6 +5,8 @@
  */
 package introduccion;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author DavidMorales
@@ -19,7 +21,7 @@ public class Principal {
         
         System.out.println("Hola Mundo");
         System.out.println("Hola");
-        
+        JOptionPane.showMessageDialog(null, "Prueba", "PRueba", JOptionPane.ERROR_MESSAGE);
         
     }
     
